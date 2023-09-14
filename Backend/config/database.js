@@ -3,7 +3,7 @@ mongoose.set("strictQuery", true);
 
 const connectDatabase = () => {
   mongoose
-    .connect(process.env.MONGODB_URI, {
+    .connect("mongodb+srv://sathvikvmaiya:savesath@online-pet-management.j2ub5jd.mongodb.net/online-pet-management?retryWrites=true&w=majority",{
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
