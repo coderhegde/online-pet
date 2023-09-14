@@ -7,7 +7,7 @@ const {
   deletepettoy,
   getPetClass,
   getBrands,
-} = require("../controller/pettoyscontroller");
+} = require("../controller/Pettoyscontroller");
 const { isauthenticateduser, authorizeroles } = require("../middleware/auth");
 const router = express.Router();
 
